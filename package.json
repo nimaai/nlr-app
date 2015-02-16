@@ -1,0 +1,27 @@
+{
+  "name": "nimaai_nlr-app",
+  "version": "0.0.0",
+  "description": "npm dependencies for nlr-app",
+  "main": "''",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cordova": "cordova",
+    "pre-build": "git submodule update --init",
+    "build-all": "npm run pre-build && npm run cordova build android && npm run cordova build ios",
+    "build-android": "npm run pre-build && npm run cordova build android",
+    "build-ios": "npm run pre-build && npm run cordova build ios"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nimaai/nlr-app"
+  },
+  "author": "",
+  "license": "None",
+  "bugs": {
+    "url": "https://github.com/nimaai/nlr-app/issues"
+  },
+  "homepage": "https://github.com/nimaai/nlr-app",
+  "devDependencies": {
+    "cordova": "^4.2.0"
+  }
+}
