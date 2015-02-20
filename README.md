@@ -1,5 +1,7 @@
 # nlr-app
-Mobile application for https://github.com/nimaai/nlr-web
+Mobile application for https://github.com/nimaai/nlr-web.
+
+The curious and impatient may download and install the developer version for android from https://github.com/nimaai/nlr-app/blob/master/platforms/android/ant-build/CordovaApp-debug.apk.
 
 ## build
 
