@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/nimaai/nlr-app",
   "dependencies": {
-    "nlr-web": "git+https://github.com/nimaai/nlr-web.git#1.0.0"
+    "nlr-web": "git+https://github.com/nimaai/nlr-web.git#master"
   },
   "devDependencies": {
     "cordova": "^4.2.0",
