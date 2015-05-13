@@ -1,6 +1,6 @@
 {
-  "name": "nimaai_nlr-app",
-  "version": "0.0.0",
+  "name": "nlr-app",
+  "version": "1.0.0",
   "description": "npm dependencies for nlr-app",
   "main": "''",
   "scripts": {
@@ -15,13 +15,21 @@
     "type": "git",
     "url": "https://github.com/nimaai/nlr-app"
   },
-  "author": "",
+  "author": "Matúš Kmiť",
   "license": "None",
   "bugs": {
     "url": "https://github.com/nimaai/nlr-app/issues"
   },
   "homepage": "https://github.com/nimaai/nlr-app",
+  "dependencies": {
+    "nlr-web": "git+https://github.com/nimaai/nlr-web.git#1.0.0"
+  },
   "devDependencies": {
     "cordova": "^4.2.0"
-  }
+  },
+  "keywords": [
+    "nlr",
+    "mobile",
+    "android"
+  ]
 }
