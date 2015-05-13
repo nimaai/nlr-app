@@ -9,7 +9,8 @@
     "pre-build": "git submodule update --init",
     "build-all": "npm run pre-build && npm run cordova build android && npm run cordova build ios",
     "build-android": "npm run pre-build && npm run cordova build android",
-    "build-ios": "npm run pre-build && npm run cordova build ios"
+    "build-ios": "npm run pre-build && npm run cordova build ios",
+    "bundle": "browserify -t coffeeify --extension=\".coffee\" www/coffee/app.coffee > www/dist/bundle.js"
   },
   "repository": {
     "type": "git",
@@ -25,7 +26,8 @@
     "nlr-web": "git+https://github.com/nimaai/nlr-web.git#1.0.0"
   },
   "devDependencies": {
-    "cordova": "^4.2.0"
+    "cordova": "^4.2.0",
+    "coffeeify": "1.1.x"
   },
   "keywords": [
     "nlr",
