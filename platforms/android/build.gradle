@@ -22,6 +22,12 @@ dependencies {
 }
 
 android {
+    buildTypes {
+        debug {
+            debuggable true
+        }
+    }
+
     sourceSets {
         main {
             manifest.srcFile 'AndroidManifest.xml'
