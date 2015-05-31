@@ -19,7 +19,7 @@
     },
     "installed_plugins": {
         "org.apache.cordova.inappbrowser": {
-            "PACKAGE_NAME": "com.github.nimaai.nlr"
+            "PACKAGE_NAME": "website.nityalila"
         }
     },
     "dependent_plugins": {}
