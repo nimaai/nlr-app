@@ -10,7 +10,8 @@
     "build-all": "npm run pre-build && npm run cordova build android && npm run cordova build ios",
     "build-android": "npm run pre-build && npm run cordova build android",
     "build-ios": "npm run pre-build && npm run cordova build ios",
-    "bundle": "browserify -t coffeeify --extension=\".coffee\" www/coffee/app.coffee > www/dist/bundle.js"
+    "bundle": "webpack --optimize-minimize --progress --colors www/coffee/app.coffee www/dist/bundle.js",
+    "watch": "webpack --progress --colors --watch coffee/app.coffee dist/bundle.js"
   },
   "repository": {
     "type": "git",
@@ -27,7 +28,10 @@
   },
   "devDependencies": {
     "cordova": "^4.2.0",
-    "coffeeify": "1.1.x"
+    "coffee-loader": "^0.7.2",
+    "coffee-script": "^1.9.3",
+    "json-loader": "^0.5.2",
+    "webpack": "^1.11.0"
   },
   "keywords": [
     "nlr",
