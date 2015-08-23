@@ -1,7 +1,7 @@
 # nlr-app
 Mobile application for https://github.com/nimaai/nlr-web.
 
-You can download and install the newest release from https://github.com/nimaai/nlr-app/tree/master/releases.
+Check out: https://play.google.com/store/apps/details?id=website.nityalila
 
 ## build
 
