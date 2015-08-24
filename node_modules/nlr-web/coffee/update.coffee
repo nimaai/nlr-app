@@ -35,8 +35,8 @@ exports.update = ->
   i = nlr.getLilaIndex(currentDate)
 
   updateCurrentTime(currentHour, currentMinute)
+  updateLilaProgress(currentDate)
 
   if (i != index)
     index = i
     updateLilaInformation(i)
-    updateLilaProgress(currentDate)
