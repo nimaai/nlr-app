@@ -1,7 +1,7 @@
 # nlr-app
 Mobile application for https://github.com/nimaai/nlr-web.
 
-Check out: https://play.google.com/store/apps/details?id=website.nityalila
+Check out: https://play.google.com/store/apps/details?id=nityalila.website
 
 ## build
 
